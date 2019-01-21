@@ -8,7 +8,7 @@ document.body.addEventListener('keydown', function(e) {
   const key = parseInt(e.detail || e.which);
 
 
-  if (key === code[index])    //ck to see if key entered matches code at that index
+  if (key === code[index])  {  //ck to see if key entered matches code at that index
     //debugger           **use debugger & hover over variables for values
     index++                    //increment index for next entry
 
