@@ -13,11 +13,7 @@ document.body.addEventListener('keydown', function(e) {
 
 
     if (index === code.length) {           //ck to see if all entries have been made
-
-    if (index === code.length) {           //ck to see if all entries have been made 
-
       alert('Hurray!');                    //alert message
-
       index = 0                         //reset index to 0 for next try
     }
   } else {
