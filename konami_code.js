@@ -17,7 +17,7 @@ document.body.addEventListener('keydown', function(e) {
         index = 0                     //reset index to 0 for next try
       }
     } else {
-    //alert('wrong entry, try again!')
+    alert('wrong entry, try again!')
       index = 0//reset index to 0 for next try
     }
   })
