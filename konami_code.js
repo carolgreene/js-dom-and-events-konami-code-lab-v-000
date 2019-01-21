@@ -11,7 +11,11 @@ document.body.addEventListener('keydown', function(e) {
     //debugger           **use debugger & hover over variables for values
     index++;          //increment index for next entry
 
+<<<<<<< HEAD
     if (index === code.length) {           //ck to see if all entries have been made
+=======
+    if (index === code.length) {           //ck to see if all entries have been made 
+>>>>>>> 56df3ffd64a620484d8f395643b928f72b33ece2
       alert('Hurray!');                    //alert message
 
       index = 0                         //reset index to 0 for next try
